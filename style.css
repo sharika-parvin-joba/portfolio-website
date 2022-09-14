@@ -7,13 +7,25 @@ h1{
     font-size: 40px;
 }
 
-.orange-color{
+.orange-color {
     color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+   
 }
+.orange-color li{
+
+    
+
+}
+
+
 
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 
 .half-width{
@@ -25,7 +37,10 @@ padding-left: 5%;
 }
 
 .half-width img{
-    width:80%;
+    width:60%;
+    height:60%;
+    border-radius: 50%;
+    box-shadow:20px 20px 20px 20px orange ;
 }
 
 .link-button{
@@ -58,6 +73,10 @@ padding-left: 5%;
     background-repeat: no-repeat;
     background-position: left;
    
+}
+
+.experience-area h1{
+    padding-left: 60px;
 }
 
 .experience-items{
